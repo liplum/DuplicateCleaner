@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>DuplicateCleaner</AssemblyName>
+    <StartupObject>DuplicateCleaner.App</StartupObject>
+    <RootNamespace>DuplicateCleaner</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.3" />
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shipwreck.Phash.PresentationCore" Version="0.5.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DuplicateCleaner.Core.Interface\DuplicateCleaner.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\DuplicateCleaner.Core\DuplicateCleaner.Core.csproj" />
+  </ItemGroup>
+
+</Project>
